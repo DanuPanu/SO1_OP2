@@ -1,0 +1,45 @@
+body{
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+li{
+  list-style-type: none;
+  border: 1px solid grey;
+  border-radius: 8px;
+  padding: 15px;
+  width: 250px;
+}
+
+li:nth-child(1){
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+input{
+  padding: 15px;
+  width: 250px;
+  border: 1px solid grey;
+  border-radius: 8px;
+}
+
+button{
+    margin-left: 5px;
+    padding: 15px;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+
+.wrapper{
+  display: flex;
+}
+
+.toka{
+  margin-left: 5px;
+}
